@@ -1,8 +1,7 @@
-# 🎯 Interview Prep AI
 
 An AI-powered interview preparation platform that helps you practice technical interviews with intelligent question generation and detailed feedback.
 
-## ✨ Features
+## Features
 
 - **AI-Generated Questions**: Get customized interview questions on any technical topic
 - **Instant Evaluation**: Receive detailed AI-powered feedback on your answers
@@ -11,7 +10,7 @@ An AI-powered interview preparation platform that helps you practice technical i
 - **User Authentication**: Secure login and signup system
 - **Beautiful UI**: Clean, modern Streamlit interface
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Backend
 - **FastAPI**: High-performance Python web framework
@@ -24,13 +23,13 @@ An AI-powered interview preparation platform that helps you practice technical i
 - **Streamlit**: Python-based web application framework
 - **Requests**: HTTP library for API calls
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - OpenAI API key
 - pip (Python package manager)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone the Repository
 ```bash
@@ -103,7 +102,7 @@ streamlit run streamlit_app.py
 - **Backend API**: http://localhost:8000
 - **API Documentation**: http://localhost:8000/docs
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Sign Up / Login
 1. Open the Streamlit app at http://localhost:8501
@@ -131,7 +130,7 @@ After submitting your answer, you'll receive:
 3. Review detailed feedback for each session
 4. Track your progress over time
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Interview prep chatbot/
@@ -179,7 +178,7 @@ Interview prep chatbot/
 - `POST /api/rag/seed` - Seed question bank with samples
 - `POST /api/rag/generate-question` - Generate question using RAG
 
-## 🔧 Configuration
+##  Configuration
 
 ### Backend API URL
 If running the backend on a different host/port, update `streamlit_app.py`:
@@ -200,7 +199,7 @@ llm = ChatOpenAI(
 )
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend not starting
 - Verify all dependencies are installed
@@ -221,7 +220,7 @@ llm = ChatOpenAI(
 - Check backend logs for detailed error messages
 - Ensure internet connection is stable
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - [ ] Timed interview mode
 - [ ] Mock interview sessions with multiple questions
@@ -234,7 +233,7 @@ llm = ChatOpenAI(
 - [ ] Question difficulty auto-adjustment
 - [ ] Integration with LeetCode/HackerRank
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:
 1. Fork the repository
@@ -242,27 +241,15 @@ Contributions are welcome! Feel free to:
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is open source and available for educational purposes.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenAI for GPT models
 - LangChain for LLM framework
 - Streamlit for the amazing UI framework
 - FastAPI for the high-performance backend
 
-## 📞 Support
 
-For issues or questions:
-1. Check the troubleshooting section
-2. Review API documentation at http://localhost:8000/docs
-3. Check backend logs for error details
-4. Ensure all prerequisites are met
-
----
-
-**Built with ❤️ for aspiring developers**
-
-*Happy interviewing! 🎯*
