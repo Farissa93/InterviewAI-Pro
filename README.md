@@ -178,7 +178,7 @@ Interview prep chatbot/
 - `POST /api/rag/seed` - Seed question bank with samples
 - `POST /api/rag/generate-question` - Generate question using RAG
 
-## 🔧 Configuration
+##  Configuration
 
 ### Backend API URL
 If running the backend on a different host/port, update `streamlit_app.py`:
@@ -199,7 +199,7 @@ llm = ChatOpenAI(
 )
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend not starting
 - Verify all dependencies are installed
@@ -220,7 +220,7 @@ llm = ChatOpenAI(
 - Check backend logs for detailed error messages
 - Ensure internet connection is stable
 
-## 🚧 Future Enhancements
+##  Future Enhancements
 
 - [ ] Timed interview mode
 - [ ] Mock interview sessions with multiple questions
@@ -233,7 +233,7 @@ llm = ChatOpenAI(
 - [ ] Question difficulty auto-adjustment
 - [ ] Integration with LeetCode/HackerRank
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to:
 1. Fork the repository
@@ -241,27 +241,15 @@ Contributions are welcome! Feel free to:
 3. Make your changes
 4. Submit a pull request
 
-## 📄 License
+##  License
 
 This project is open source and available for educational purposes.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - OpenAI for GPT models
 - LangChain for LLM framework
 - Streamlit for the amazing UI framework
 - FastAPI for the high-performance backend
 
-## 📞 Support
 
-For issues or questions:
-1. Check the troubleshooting section
-2. Review API documentation at http://localhost:8000/docs
-3. Check backend logs for error details
-4. Ensure all prerequisites are met
-
----
-
-**Built with ❤️ for aspiring developers**
-
-*Happy interviewing! 🎯*
