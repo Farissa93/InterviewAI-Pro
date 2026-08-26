@@ -1,0 +1,17 @@
+fastapi==0.135.2
+uvicorn==0.42.0
+sqlalchemy==2.0.48
+python-dotenv==1.2.2
+langchain==1.2.13
+langchain-openai==1.1.12
+langchain-community==0.4.1
+langchain-chroma==1.1.0
+langchain-text-splitters==1.1.1
+chromadb==1.5.5
+pydantic==2.12.5
+bcrypt==5.0.0
+python-jose[cryptography]==3.5.0
+slowapi==0.1.10
+email-validator==2.3.0
+pytest==9.1.1
+httpx==0.28.1
